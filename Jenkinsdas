@@ -1,0 +1,16 @@
+pipeline{
+	agent any 
+	stages{
+		stage("cloning git") {
+	steps{
+		echo "cloned"
+	}
+}
+                stage("executing") {
+        steps{
+                bat 'java demo.jav'
+        }
+}
+}
+}
+

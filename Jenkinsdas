@@ -8,7 +8,7 @@ pipeline{
 }
                 stage("executing") {
         steps{
-                bat 'java demo.jav'
+                bat 'java demo.java'
         }
 }
 }
